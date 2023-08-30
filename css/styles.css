@@ -5,8 +5,14 @@
 }
 body{
     text-align: center;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
-.peon{
-    background-color:blue ;
+header{
+    background-color:#2E0236;
+    height: 20vh;
+    overflow: hidden;
+}
+h1{
+    color: aliceblue;
+    margin: 20px;
 }
