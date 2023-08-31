@@ -1,18 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Kalam:wght@700&family=Poppins:ital,wght@1,100&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 body{
     text-align: center;
-    background-color: rgb(255, 255, 255);
+}
+.header_conteiner{
+    height: 50vw;
+    overflow: hidden;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/06/10/21/30/1000_F_610213059_dlOm54wda531x9u9D7sWJ2ErmOTIysRk.jpg);
+    background:linear-gradient(rgb(203, 3, 253),rgb(0, 0, 0))
+}
+#Rey{
+    height: 400vh;
+    width: 100%;
+    overflow: hidden;
+
 }
 header{
-    background-color:#2E0236;
-    height: 20vh;
+    height: 12vh;
+    width: 100%;
     overflow: hidden;
+    display: grid;
+    margin-top: 0;
+    display: flex;
+    position: fixed;
+    padding-left: 6%;
+    padding-right: 10%;
+    background-color:  rgb(39, 4, 33);
 }
 h1{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin: 20px;
+    text-align: left;
+    justify-content: center;
+    font-size: x-large;
 }
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+    overflow: hidden;
+    gap: 8%;
+    
+}
+a{
+    float: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:active{
+    
+ border-bottom:  5px solid rgb(225, 0, 255);
+}
+#img_header_icon{
+    width: 20%;
+    background-color: rgb(39, 4, 33);
+}
+.ConteinerInfoname{
+    padding-top: 8%;
+    display: grid;
+    grid-template-columns:65% 35%;
+    overflow: hidden;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    justify-content: center;
+    background-size: cover;
+}
+.name{
+    overflow: hidden;
+    text-align: left;
+    justify-content: center;
+}
+h4{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-family: Helvetica;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    margin-top: 10vw;
+}
+#span1{
+    color: rgb(216, 212, 218);
+    font-family: forte;
+    white-space: nowrap;
+    border-right:  4px solid rgb(255, 255, 255);
+    width: 29ch;
+    display: flex;
+    animation: typing 2s steps(40),
+    blink .4s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 3rem;
+}
+#Frase{
+    color: white;
+    margin-top: 2%;
+}
+#button_Start{
+    padding: 10px 20px ;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+    10%{
+        border-color: transparent;
+    }
+}
+.info{
+    height: auto;
+    overflow: hidden;
+    border-radius: 60%;
+    text-align: center;
+}
+#img_perfile{
+    width: 100%;
+}
+.redes{
+    margin-left: 10%;
+    width: 5%;
+    overflow: hidden;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    height: 60vh;
+    margin-left: 0px;
+    margin-top: -50vh;
+    
+}
+#img_Tik,#img_Face,#img_Twi,#img_Dis,#img_Wha,#img_In{
+    cursor: default;
+    display: block;
+    row-gap: 20vh;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(27, 3, 22);
+    border-radius: 4px;
+}
+
+.Article{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contenido{
+    width: 70%;
+    padding-left: 2%;
+    display: flex;
+    gap: 10vh;
+}
+#img_Diseño{
+    width: 30%;
+    background-color: rgba(0, 255, 255, 0);
+}
+section{
+    width: 100%;
+    overflow: hidden;
+
+}
+#section_img{
+    width: 100%;
+}
+#contenido_sobre_mi{
+    text-align: justify;
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;
+
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }/*
+  .valores1{
+    background-image: url(https://inesdi-cdn.s3.eu-west-3.amazonaws.com/inesdi-prod/2022-08/analitica%20web%201.jpg);
+  }
+  .valores2{
+    background-image: url(https://img.freepik.com/vector-gratis/pagina-inicio-diseno-web-dibujos-animados_52683-70880.jpg?w=2000);
+  }
+  .valores3{
+    background-image: url(https://cdn.le-vpn.com/es/wp-content/uploads/2022/01/Why-Is-Internet-Privacy-More-Important-Now-than-Ever-1200x628-1.png);
+  }
+  article{
+    width: 100%;
+    overflow: hidden;
+    height: 50vw;
+    display: flex;
+    gap: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#valores{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 40%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+#valores:hover{
+    flex: 6;
+}
+article:hover #valores:not(:hover){
+    filter:blur(20px)
+}
+.capa{
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+}*/
+
+#article{
+    margin-top: 8%;
+    padding: 8% 10%;
+    width: 100%;
+    background-color: #b274a6;
+}
+#article_img{
+    width: 80%;
+}
+@media all and (max-width: 1255px){
+    body{
+        width:100%;
+        background-color: aqua;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    #span1{
+        font-size: 2rem;
+    }
+}
+@media all and (max-width: 800px){
+    body{
+        width:100%;
+        background-color: aqua;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    #span1{
+        font-size: 3vh;
+    }
+    header{
+        height: 10%;
+        padding-left: 0;
+    }
+    .header_conteiner{
+        height: 100%;
+        overflow: hidden;
+    }
+    #img_header_icon{
+        width: 48%;
+    }
+    nav{
+        display: none;
+    }
+    .ConteinerInfoname{
+        padding-top: 20%;
+        display: block;
+        
+        height: 100%;
+        background:linear-gradient(rgb(203, 3, 253),rgb(0, 0, 0));
+    }
+    
+    .name{
+        width: 100%;
+    }
+    #Frase{
+        font-size: 23px;
+        margin-top: 5%;
+        text-align: justify;
+    }
+    .info{
+        margin-top: 10%;
+        background-image: url(../pngwing.com\ \(1\).png);
+        background-size: cover;
+        background-position: center;
+        height: 70vw;
+        border-radius: 0;
+    }
+    
+
+    }
+    
+
+
+

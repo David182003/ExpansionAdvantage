@@ -2,18 +2,69 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script:wght@400;500&family=Kalam:wght@700&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
     <body>
         <div class="Rey" id="Rey">
-            <header>
-                <h1>Expansion Advantage</h1>
+            <div class="header_conteiner">
+                <header>
+                    <img id="img_header_icon" src="Proyecto nuevo (1) - copia.png" alt="">
+                    <nav>
+                        <a href="#Inicio">INICIO</a>
+                        <a href="#article">SOBRE MI</a>
+                        <a href="">SERVICIOS</a>
+                        <a href="">PAGINAS</a>
+                        <a href="">LOGIN</a>
+                    </nav>
+                </header>
+                <div id="Inicio"  class="ConteinerInfoname">
+                    <div class="name"> 
+                        <H4>ING. SISTEMAS</H4>
+                        <span id="span1">WEB DESING</span>
+                        <p id="Frase">"Tu éxito y tranquilidad son mi compromiso, la elección perfecta para ti."</p>
+                    </div>               
+                    <div class="info">
+                        <img id="img_perfile" src="le.png" alt="">
+                    </div>
+                </div>
+                <div class="redes">
+                    <img  id="img_Tik" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoRJREFUSEvFlz9szVEUx7/fe36PhJDOKBaiaWhDhFAhEgMGZrFIpDEwiRoslRjoUAkWA5vBIsTAZmDRNBHV+BMmZRASkYpI++79yu/lPfn19vfr+7Wvzbvby73nfM73nHPP7z6iTYtt4qIlsKanD8G5vf+DlyaYJHfKiGkN7P0QgAsZ0BeadbYDDDi3nuREM/hiK055QzS72A5wgHMHSD6fC96q4msABnIAU5D6YXaf5N+8AJYK3GClAYyAfECz69kAWgXHXZ2fXWmESbJrMcFxqv8AWAYgmRGB9JJJsnveYEkVAGsBrAHgSL5Incj7GDwG544jhCsATmQGy/zAktYhhEsATmdU/KJZRx18FUD26rymWW9tT+qC930gt6S/aXa+lGJJ+xDCEwAro8L9ptmqOjiu8TjNtja7w7VA8g5J2oMQntXrFR+ZpNnqAvAbmm1bEFiSIYRxALUU5aylUaxq9RTIuxHwHaRBmKVZ6CD5sai5aNazMMUhPIR0LGP8A871kvwaO9Tsr9PCaiyJCGEyaqhBml3O7YVFBHcghJ8zICEcZqXytAB8E8DZzN4rmm2fd6olOYTgI8MzNLtdAE6bsPv/HvmI6QApsWZdJ3k/CmBHxvY9nOshOZX1J6kTIXyOGMPxoCiKIQ98DsCNGQbSKMxOkvxQ6+Zq9SjIYQCbo7IcZKWSdn7TNRssrUAIbwFsyLEeA5DO7a6cvdL1TW2LJlcfQpjzBRGBv8G5/Y2MNJVbBK4Ph/56ypc3cfQJzh1pDJUy0ELFDWNJm+D9PZA7cxwKwC04N1D0vJkriFIvEEkb4X03yPQDkGbgO5x7TDLu6rKCW/snUZqSc7CU4lYARbb/AEKVBi4vvqSbAAAAAElFTkSuQmCC"/>   
+                    <img  id="img_Face" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAASJJREFUSEvt1D9KA1EQx/Hvb9/bztImeAARbLxBBC9ga6NN9BD23kBREbTzBnaiHsFCwQuI2ghaZnZHAhKWQNjdkGz8s9u+YT47v/cYMadPc3L5nbC7B2ANswVi/ATegBdJ/bIkJ57YzTaRDoHOCPKgEFZnArvZDtL5mOazgd09Jc+fgcVm4X6/S5LcjKBPwBXwMbhnhXA09ajdbBvpotD4lSRZkpSVYcXz2o/Ls2wXOBk2cb9TjN066KB2EngPOC7At4px/W/BnmWPwErFqS4VwlZZbaWoa8IHCmG/edi9pxjPmofzfENpej0VuNjEzXpIp82/6hZ2b2iBtFG3UZdtju/zSrv6ZywQ9w5my8OfifFd0n3FQYdltSeuC4yr/3/wF2R0oh94s7IqAAAAAElFTkSuQmCC"/>
+                    <img  id="img_Twi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAmdJREFUSEvtlk2ITmEUx3//5963NGkYCsXQKEnJLLAZHzEiTVmIZDFlUhYKqVEWYmFBKQmRrQ3jq1lJNgoLiY0s2VCSms2kfL33nqP7zkcz433fe993ZDaeerqL5zznd87/Ofc8j5ihoRni8h/8z5SfttTuPgez60AX0A78AC4RwnlJ37JM3H1h9pX0ZSyzSWB3b8HsBiEclJTkpe/uizF7DnRUsf0E3EZajVmr4njDRJvJ4CTZg3QfaRBpXx7czR7i3pMT4DtC2JmpIelp9YzT9ChwpbLo/pIo6pX0vppjd1+H2as8VYAPwCLcdyuOH9WSejNm41EBP4EzhHBV0veJEE/TY8DlAuAhzHpVKj2uLbX7LMy+AvEUh1mRPMDsFnH8RtJnT9PTwNkC4AuKopNT7f6oak/Tw0BWpfXGMJDNpQXApxRF5+qCPUn6kNYgdeLeXcBpvol7n+L4Zn1wubyDECadRb7nHIsQuiS9qA92jzHLqnjZtIEjDoYJoU2S55+x+ybMBoH5fwF+R1G0v5qfqi1ztCP1A4eA2U0HEMKWiU2j5u80tuBpegT3vUhrmwa7v1Ycr68VdK2MV2H2FoiaztZsm0qlJw2BM2NPkl1IA0BLE/CLiqIT9fbVvRbdfQFmmexbkTYWCsD9GVG0XdKv6YBbMcuK7DjQWgA8QAgH8qCZn/GM3X0eSdKJ1I60sjJHuldbAWDWPrPWeK2AbcVk6n2cVXLWV1cUdFAG7hJC/8TXRZG91au6XO4mhB6kDsyWIC0H5gJDlSl9rDSZKLonKcu24THtN1fDxNEN/8HNKtfwvhmT+jcGmdQf/GcgbgAAAABJRU5ErkJggg=="/>
+                    <img  id="img_Dis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAApRJREFUSEvtlk2IjVEYx3//cy5ThIWPlHzGWEiS0liRUiwsJNmJRiKzmChKsxjJikySIhlkxYKNoixINqxQNuSjaApD2fh8z3n0zn2v7n3ve907DLNxlud9zvN7nv/5n/ccMUpDo8TlP/ifKd+S1Ga2lBjXAt/l/dGi6iyE/YBw7rqkh806aAg2s+nEuBXYBczKEn3DbAMwFWna0JzZW2AQ6QowNot7AZzCuX5Jg0VFFILNbAIxPgemNKu8yfcBnJsn6Ws+rhgcQh/Q/YfQyvKD8r63KdjM5hHjE8CPEPhr1vVAdb66ji2EfmDbCEErafrk/Z6GYDNrI8b3wPgRBr/DuRmSvlfy1nRsSbIV6dwIQ8vpzDaqVEqdPzTy4NtIKwvAAbgELASWFRZmdg/pGbC50B/SNTm3vg6cyfwJcLnEEefmSHo1VHgIXcCJXMxOeX+63JjNzo5iPs9neT+uCLyYGB/VdSPdknOrK/NmNinzQcX1AecmS/r4MyZJbiGtqsvl3FxJL2uktiTZhHS5BfBEYvxQJWfr4BjXacyYG7XgEHqAQwX7l1Cu9HVDqc12qFQ6k0k9M5O6VJCrW94fz4PTn//eBo6umGsRsOS3zFVe1CvvD+bBabdp139z7JP3R/LgA8Dhv0kFuuT9yby51iFdBdpy8GOkZ9S57Zit+UVhhnSTGM8irSi4ZL7g3BpJd2vAmTEWEMKFbGE14ynOdQATCCHd4ylIU9Nji1l63w7i/YP0oUCMd4D5NQVK6fHqlJTe00Oj/pIwc8S4O5UFaM/iLsr7La1sgyVJ+gdbnsU+xux4xfHV63/59DGzDmLsxLkeSW9aApu1E2M3zp2XdL/RmpbeXK0AhxvzHzxcxX47ftSk/gE25Pkfp1GD7AAAAABJRU5ErkJggg=="/>
+                    <img  id="img_Wha" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA9ZJREFUSEvllluIlVUUx3//tfcoWJpaRmZORZRF0URXMLtIRlb0UhERKXSxesmHEgqCiB4qKogowS7zEBUTZSQhGgrhlEYIUQgFEl0su9jV0qSc79sr9jffGcdzzpwz8yTRejqHb6393/+1/muvJQ6R6RDh8t8CdvejgLlABL4FdknyiWRv3IzdfR4p3QosAWY3gexB2oL725j1S9rf7RJdgd19Dik9DNwCI6XZB3wFZJZnNIF8j/syxbiuE3hHYC+Kq5FeAaYDPwHPYrZW0seNQ939cIrifMwWAPcBU+oL3a0QVo4FPiawDw0txmx9Hfg4Zg9K+qcTC3fvxb0f90W1310K4bl2MW2B3f14UtoGTAPuUQhPdavZ6O9eliuAJ4CE2SWSNjfHtwdOaT3ui4FHFMIDOcjdJ1EU84lxcDwK9rIcAG4EtimEvq7APjS0CLONwE7MTsoKdfcppPQB0If7EsWY697R3H06KX1WdYD79YrxzdEBLYy9LFcBdwLLFcIzFduyXA48XQW6DyrGS7sBV65FcSXSOqS1MrumG/AOoBez2ZJ+rIEblxmONTtW0g/jAi/LncAszGZK+qsRcxBjd59MSn8D2xXCqSMtU5b3Ak/W/wcUwk3jAa1Zf4h0AWZnj27DZuC5pPQN7lsUY+7LOrt+HCltr3rU/Q7F+MK4gVNajft1tbrfG4txLynlVH+kEM5tapH8ODwG/IbZfEn5Il1tRN1mF0rKAq2smfFhpLQX2K0QZjSf6o3bw+8189V1OvP7HQjhpeZW86IYRLoYsxMkZVKtwLWQvgROxGyGpN0HsXafVrfV6Y164z6AlC8wCfg6a6HxVLp7Dyn9UvmaHSmp6AQ8rGD32xVjfwtr9yNIKbdZZtlq0hsyu6EiceDZfVkhLB3t3NrH7n2k9AmwA7OTJQ21O78+9HIgK/yY2mcfZgslba1LsBXpPFJaqJ6eTR2B64D3kRaQ0hXq6dnQSUHuPpOiOLPyifFzSd/VJbsfeBTpXZld1nxG+7e6LHNdptd13tMJuG02imIZ0vPA/rp/P+0K7I1Uu29WjBdVt8/jbni96TYWIynlofJQBeR+s2J8ta0UWsTTGGnSGty/AK4CTgPyE7kSs1WSfm1S+1RSug3I43AOsLfeQl4bK1ut4jowEkfH5FTNq5e7vO78DOQV54/KKQtoePPIv99CWiEpt+WY1vyA5L77s1pdpI2ktIYQ3skDwd1nkdJS3K9FOgeYPOrUXcDrmL0oKS8QXa0Z+GiK4ixi3NRpU3T3HHcKMDWvt5Iy8ISs65Y5odMm4Pz/A/4X6FqoLiIS/i0AAAAASUVORK5CYII="/>
+                    <img  id="img_In" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA0BJREFUSEvNll3In3MYxz8fbysvRdG8DWmIYgwnZBbOTFtLUbKxmgNnXqIW8pIoxIlygIcp5WBoZieUsCIzpInEgRgpRd7OuPR9up917959/+/n7+TZr/79D373dX2v63t9r+t3yQIdFwiXAxu4qk4AlgIHjzD0D/CN+tMYk4MZV9XxwGPA1cAxY446978CbwJ3DQXRC1xVAXsFOKJx+BfwKZCMJp3DgOXAouajP4Hr1O1do/2Aq+pw4FsgGc8AzwC71DHQWd9VdQhwGfBA8/8jcIb6dxu8DzgG9yVj9fopKQ7wjYDq5qp6B1iZINT7x4B/AE5KxurP0wA3oJsbm5ub8nwG7FFPHgRuBBVFfqWe3QdaVQlqNXBJmAU+AF6LiKpqHfBiY7dBnamqP4AjgePUX+Z87kN1VUUYu4Adauq0z6mqW4DHgaM6V78Dt6nPV9VNoRrYre6squjldOBcdfcQcMDeSyuoq9rOq+qOBjQgTwGfAIcC5wW0ySrgudt7qurzgIYhNezMnm7GVwFvNdStnfuoqi4AdgKh6kJ1T8f5KU0gYWK5+kXLNjVeFoWrO8aAt6jXtowfBO4FblefHKj93cCjwD3qwy3bMJPAV6jvDwFfCbzdk/EbQKhfpWYi7XeqKgxtya8TdDQT7axU3x0CTs+l97ap17Sifr1R8mp165TAKdFFwBVqfPfWeA54q5qWmT1VlYGSwXKn+sQA8CYgFG9SH2nZfhxdAJerEe5E4G7GS9LbQMbe+T3iOrUZFhmXZ7Ufhqqal7guTQ8PtNOtwNNABn9aJpnkUYhi006Z8RvVZzuKj8LPAS5WY9ObcdQXFQ4NkI1AqO4bIFH8c90ytAbIMjU93Qucefo98J162kAtMzLXAGEnL9aHwKt9725VHdSUJ8/kEjXvQC9wNozfmil04nw2ib7gWsKKmqPqlOfo9tPa9yyGrg3Ay+oNkxyP3VVVVJwxPKPG597TB3ws8HWz7mRzeAj4SP13DKhpvblFIHYpR9agM9svU74bWn3WAy+0gP7v6hMX69SXukFPWvZWZDYDmWARyTQn7GxLB7SHxkSqe9phMdC7FEyI5Mux7eXAXuin4Xi+3y5Yxv8B0cNdLjCgKqcAAAAASUVORK5CYII="/>
+                </div>
+            </div>
+            <article id="article">
+                <div class="combo">
+                    <img  id="article_img" src="Media/2947181.jpg" alt="">
+                </div>
                 
-                
-                
-            </header>
+            </article>
+
+
+
+
+
+
+
+            <!--            <div class="conteiner_article">
+                <article id="article">
+                        <div id="valores" class="valores1"></div>
+                        <div id="valores" class="valores2"></div>
+                        <div id="valores" class="valores1"></div>
+                        <div id="valores" class="valores2"></div>
+                        <div id="valores" class="valores1"></div>
+                </article>
+            </div>-->
+
         </div>
+        <script src="js/main.js"></script>
     </body>
 </html>
