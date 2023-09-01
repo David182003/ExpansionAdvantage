@@ -12,7 +12,7 @@ body{
 .header_conteiner{
     height: 50vw;
     overflow: hidden;
-    background:linear-gradient(rgb(203, 3, 253),rgb(0, 0, 0))
+    background:linear-gradient(rgb(204, 0, 255),rgb(0, 0, 0));
 }
 #Rey{
     height: 400vh;
@@ -277,9 +277,15 @@ article:hover #valores:not(:hover){
     }
     h4{
         font-size: 3vh;
+        text-align: center;
     }
     #span1{
         font-size: 3vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     header{
         height: 10%;
@@ -300,14 +306,14 @@ article:hover #valores:not(:hover){
         display: block;
         
         height: 100%;
-        background:linear-gradient(rgb(203, 3, 253),rgb(0, 0, 0));
+        background:linear-gradient(rgb(204, 0, 255),rgb(0, 0, 0));
     }
     
     .name{
         width: 100%;
     }
     #Frase{
-        font-size: 23px;
+        font-size: 25px;
         margin-top: 5%;
         text-align: justify;
     }
