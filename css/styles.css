@@ -280,7 +280,7 @@ article:hover #valores:not(:hover){
         font-size: 2rem;
     }
 }
-@media all and (max-width: 800px){
+@media all and (max-width: 1159px){
     body{
         width:100%;
         background-color: aqua;
@@ -323,7 +323,6 @@ article:hover #valores:not(:hover){
     }
     .info{
         margin-top: 10%;
-        background-image: url(../pngwing.com\ \(1\).png);
         background-size: cover;
         background-position: center;
         height: 70vw;
