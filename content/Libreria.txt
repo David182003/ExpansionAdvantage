@@ -1,0 +1,66 @@
+<!--            <div class="conteiner_article">
+                <article id="article">
+                        <div id="valores" class="valores1"></div>
+                        <div id="valores" class="valores2"></div>
+                        <div id="valores" class="valores1"></div>
+                        <div id="valores" class="valores2"></div>
+                        <div id="valores" class="valores1"></div>
+                </article>
+            </div>-->
+
+
+HTML
+
+
+/*
+  .valores1{
+    background-image: url(https://inesdi-cdn.s3.eu-west-3.amazonaws.com/inesdi-prod/2022-08/analitica%20web%201.jpg);
+  }
+  .valores2{
+    background-image: url(https://img.freepik.com/vector-gratis/pagina-inicio-diseno-web-dibujos-animados_52683-70880.jpg?w=2000);
+  }
+  .valores3{
+    background-image: url(https://cdn.le-vpn.com/es/wp-content/uploads/2022/01/Why-Is-Internet-Privacy-More-Important-Now-than-Ever-1200x628-1.png);
+  }
+  article{
+    width: 100%;
+    overflow: hidden;
+    height: 50vw;
+    display: flex;
+    gap: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#valores{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 40%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+#valores:hover{
+    flex: 6;
+}
+article:hover #valores:not(:hover){
+    filter:blur(20px)
+}
+.capa{
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+}*/
+
+
+
+
+CSS
+
+
+
+Paginas INNEVITABLES 
+
+		storyset.com
+
+
+

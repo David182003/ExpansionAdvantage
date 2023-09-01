@@ -5,7 +5,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 body{
     text-align: center;
 }
@@ -18,7 +17,6 @@ body{
     height: 400vh;
     width: 100%;
     overflow: hidden;
-
 }
 header{
     height: 12vh;
@@ -30,7 +28,6 @@ header{
     position: fixed;
     padding-left: 6%;
     padding-right: 10%;
-    
     background-color:  rgb(39, 4, 33);
 }
 h1{
@@ -74,8 +71,6 @@ a:active{
     padding-left: 10%;
     justify-content: center;
     background-size: cover;
-    background-image: url(https://loading.io/asset/686081);
-
 }
 .name{
     overflow: hidden;
@@ -138,7 +133,6 @@ h4{
     height: 60vh;
     margin-left: 0px;
     margin-top: -50vh;
-    
 }
 #img_Tik,#img_Face,#img_Twi,#img_Dis,#img_Wha,#img_In{
     cursor: default;
@@ -149,7 +143,6 @@ h4{
     background-color: rgb(27, 3, 22);
     border-radius: 4px;
 }
-
 .Article{
     width: 100%;
     display: flex;
@@ -171,7 +164,6 @@ h4{
 section{
     width: 100%;
     overflow: hidden;
-
 }
 #section_img{
     width: 100%;
@@ -182,219 +174,86 @@ section{
 font-family: 'Dancing Script', cursive;
 font-family: 'Kalam', cursive;
 font-family: 'Poppins', sans-serif;
-
-}
-.button {
-    position: relative;
-    overflow: hidden;
-    height: 3rem;
-    padding: 0 2rem;
-    border-radius: 1.5rem;
-    background: #3d3a4e;
-    background-size: 400%;
-    color: #fff;
-    border: none;
-  }
-  #checkbox{
-    display: none;
-  }
-  .button:hover::before {
-    transform: scaleX(1);
-  }
-  
-  .button-content {
-    position: relative;
-    z-index: 1;
-  }
-  
-  .button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    width: 100%;
-    height: inherit;
-    border-radius: inherit;
-    background: linear-gradient(
-      82.3deg,
-      rgba(150, 93, 233, 1) 10.8%,
-      rgba(99, 88, 238, 1) 94.3%
-    );
-    transition: all 0.475s;
-  }/*
-  .valores1{
-    background-image: url(https://inesdi-cdn.s3.eu-west-3.amazonaws.com/inesdi-prod/2022-08/analitica%20web%201.jpg);
-  }
-  .valores2{
-    background-image: url(https://img.freepik.com/vector-gratis/pagina-inicio-diseno-web-dibujos-animados_52683-70880.jpg?w=2000);
-  }
-  .valores3{
-    background-image: url(https://cdn.le-vpn.com/es/wp-content/uploads/2022/01/Why-Is-Internet-Privacy-More-Important-Now-than-Ever-1200x628-1.png);
-  }
-  article{
-    width: 100%;
-    overflow: hidden;
-    height: 50vw;
-    display: flex;
-    gap: 1rem;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#valores{
-    flex: 1;
-    border-radius: 1rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 40%;
-    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
-}
-#valores:hover{
-    flex: 6;
-}
-article:hover #valores:not(:hover){
-    filter:blur(20px)
-}
-.capa{
-    background-color: #fff;
-    overflow: hidden;
-    position: absolute;
-}*/
-
-#article{
-    margin-top: 8%;
-    padding: 8% 10%;
-    width: 100%;
-    background-color: #b274a6;
-}
-#article_img{
-    width: 80%;
 }
 
+/*-----------RESPONSIVE MEDIA QUERIS-------------------->>>*/
 @media all and (max-width: 1255px){
-    body{
-        width:100%;
-        background-color: aqua;
-        zoom: 100%;
-    }
-    h4{
-        font-size: 3vh;
-        width: 100%;
-        text-align: center;
-    }
-    #span1{
-        font-size: 3vh;
-        text-align: center;
+   
+/*--------*/
+
+/*--------*/
+    
+    #svg1{
         display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 90%;
+        height: 40vw;
+        background-color: rgb(255, 255, 255);
     }
-    header{
-        height: 10%;
-        padding-left: 0;
-    }
-    .header_conteiner{
-        height: 100%;
+    #article{
+        margin-top: 0%;
+        padding: 0% 0%;
+        grid-template-columns: 60% 40%;
         overflow: hidden;
-    }
-    #img_header_icon{
-        width: 48%;
-    }
-    nav{
-        display: none;
-    }
-    .ConteinerInfoname{
-        padding-top: 20%;
-        display: block;
-        height: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        background:linear-gradient(rgb(204, 0, 255),rgb(0, 0, 0));
-    }
-    
-    .name{
-        width: 100%;
-    }
-    #Frase{
-        font-size: 2rem;
-        margin-top: 5%;
-        text-align: center;
-    }
-    .info{
-        margin-top: 60%;
-        background-size: cover;
-        background-position: center;
-        height: 70vw;
-        border-radius: 0;
-        border-radius: 10px;
-    }
-    #neutro{
-        visibility: visible;
-        display: block;
-    }
-    
-    }
-    #neutro{
         
-        display: none;
     }
-      
-      .toggle {
-        position: relative;
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
+    .article_susu{
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
-        gap: 10px;
-        transition-duration: .5s;
-      }
-      
-      .bars {
+        align-items: center;
+    }
+    .article_sub{
+        overflow: hidden;
+        padding-top: 15%;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+    }
+    h2,h3{
+        margin-bottom: 5%;
         width: 100%;
-        height: 4px;
-        background-color: rgb(176, 92, 255);
-        border-radius: 4px;
-      }
-      
-      #bar2 {
-        transition-duration: .8s;
-      }
-      
-      #bar1,#bar3 {
-        width: 70%;
-      }
-      
-      #checkbox:checked + .toggle .bars {
-        position: absolute;
-        transition-duration: .5s;
-      }
-      
-      #checkbox:checked + .toggle #bar2 {
-        transform: scaleX(0);
-        transition-duration: .5s;
-      }
-      
-      #checkbox:checked + .toggle #bar1 {
+        color: rgb(35, 1, 33);
+    }
+    .h3{
+        margin-bottom: 2%;
+        color:rgb(26, 0, 24);
+        letter-spacing: 2px;
+        font-size:13px;
+    }
+
+    h2{
+        letter-spacing: 3px;
+    }
+    .article_article{
+        height: 50vw;
+        padding: 10px;
+        display: flex;
+        gap: 2%;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        border-radius: 12px;
+        justify-content: center;
+        grid-template-columns: 30% 30% 30%;
+        margin-top: 2%;
+    }
+    .article_interior{
+        border-radius: 5px;
+        padding: 8% 10px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 30px 20px 50px rgb(88, 80, 80);
+        
+        flex: 1;
+        background-size: cover;
+    }
+    #empresarial_icon{
         width: 100%;
-        transform: rotate(45deg);
-        transition-duration: .5s;
-      }
-      
-      #checkbox:checked + .toggle #bar3 {
-        width: 100%;
-        transform: rotate(-45deg);
-        transition-duration: .5s;
-      }
-      
-      #checkbox:checked + .toggle {
-        transition-duration: .5s;
-        transform: rotate(180deg);
-      }
-
-
-
+        justify-content: center;
+        align-items: center;
+    }
+    .article_interior:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: all .3s ;
+        gap: 2%;
+        background-color: rgb(255, 255, 255);
+    }
+    
