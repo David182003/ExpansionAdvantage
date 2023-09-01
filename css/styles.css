@@ -274,10 +274,11 @@ article:hover #valores:not(:hover){
     body{
         width:100%;
         background-color: aqua;
-        zoom: 100%;
+        zoom: 50%;
     }
     h4{
         font-size: 3vh;
+        width: 100%;
         text-align: center;
     }
     #span1{
@@ -305,8 +306,9 @@ article:hover #valores:not(:hover){
     .ConteinerInfoname{
         padding-top: 20%;
         display: block;
-        
         height: 100%;
+        padding-left: 0;
+        padding-right: 0;
         background:linear-gradient(rgb(204, 0, 255),rgb(0, 0, 0));
     }
     
