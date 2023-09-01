@@ -313,9 +313,9 @@ article:hover #valores:not(:hover){
         width: 100%;
     }
     #Frase{
-        font-size: 25px;
+        font-size: 3rem;
         margin-top: 5%;
-        text-align: justify;
+        text-align: center;
     }
     .info{
         margin-top: 60%;
