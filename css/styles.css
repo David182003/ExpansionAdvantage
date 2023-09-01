@@ -12,7 +12,6 @@ body{
 .header_conteiner{
     height: 50vw;
     overflow: hidden;
-    background-image: url(https://as1.ftcdn.net/v2/jpg/06/10/21/30/1000_F_610213059_dlOm54wda531x9u9D7sWJ2ErmOTIysRk.jpg);
     background:linear-gradient(rgb(203, 3, 253),rgb(0, 0, 0))
 }
 #Rey{
@@ -31,6 +30,7 @@ header{
     position: fixed;
     padding-left: 6%;
     padding-right: 10%;
+    
     background-color:  rgb(39, 4, 33);
 }
 h1{
@@ -47,7 +47,6 @@ nav{
     width: 80%;
     overflow: hidden;
     gap: 8%;
-    
 }
 a{
     float: right;
@@ -75,6 +74,8 @@ a:active{
     padding-left: 10%;
     justify-content: center;
     background-size: cover;
+    background-image: url(https://loading.io/asset/686081);
+
 }
 .name{
     overflow: hidden;
@@ -275,7 +276,7 @@ article:hover #valores:not(:hover){
         background-color: aqua;
     }
     h4{
-        font-size: 2rem;
+        font-size: 3vh;
     }
     #span1{
         font-size: 3vh;
@@ -311,11 +312,12 @@ article:hover #valores:not(:hover){
         text-align: justify;
     }
     .info{
-        margin-top: 10%;
+        margin-top: 30%;
         background-size: cover;
         background-position: center;
         height: 70vw;
         border-radius: 0;
+        border-radius: 10px;
     }
     
 
