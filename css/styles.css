@@ -280,7 +280,7 @@ article:hover #valores:not(:hover){
         text-align: center;
     }
     #span1{
-        font-size: 4vh;
+        font-size: 3vh;
         text-align: center;
         display: flex;
         align-items: center;
