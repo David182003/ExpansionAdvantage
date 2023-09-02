@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Kalam:wght@700&family=Poppins:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+}
+.header_conteiner{
+    height: 50vw;
+    overflow: hidden;
+    
+}
+#Rey{
+    height: 400vh;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    height: 12%;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    margin-top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    padding-left: 6%;
+    padding-right: 10%;
+    background-color:  rgb(39, 4, 33);
+}
+h1{
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    text-align: left;
+    justify-content: center;
+    font-size: x-large;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+    overflow: hidden;
+    gap: 8%;
+}
+a{
+    float: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:active{
+    
+ border-bottom:  5px solid rgb(225, 0, 255);
+}
+#img_header_icon{
+    width: 20%;
+    background-color: rgb(39, 4, 33);
+}
+#Inicio{
+    height: 200vh;
+    background-color: rgb(70, 44, 93);
+    
+    
+    /*
+    display: grid;
+    grid-template-columns:65% 35%;
+    overflow: hidden;
+    text-align: center;
+    height: 50vw;
+    margin-bottom: 30vh;
+    overflow: hidden;
+    justify-content: center;
+    background:linear-gradient(rgb(200, 0, 255),rgb(0, 0, 0));*/
+}
+.name{
+    overflow: hidden;
+    text-align: left;
+    align-items: center;
+    padding-left: 10%;
+    justify-content: center;
+    padding-top: 12%;
+
+}
+h4{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-family: Helvetica;
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+    margin-top: 10vw;
+}
+#span1{
+    color: rgb(216, 212, 218);
+    font-family: forte;
+    white-space: nowrap;
+
+    border-right:  4px solid rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    animation: typing 2s steps(40),
+    blink .4s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 3rem;
+}
+#Frase{
+    color: white;
+
+    margin-top: 2%;
+}
+#button_Start{
+    padding: 10px 20px ;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+    10%{
+        border-color: transparent;
+    }
+}
+.info{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 60%;
+    display: flex;
+    margin-right: 10%;
+    text-align: center;
+}
+#img_perfile{
+    width: 100%;
+    border-radius: 70%;
+}
+.redes{
+    margin-left: 10%;
+    width: 5%;
+    overflow: hidden;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    height: 60vh;
+    margin-left: 0px;
+    margin-top: -50vh;
+}
+#img_Tik,#img_Face,#img_Twi,#img_Dis,#img_Wha,#img_In{
+    cursor: default;
+    display: block;
+    row-gap: 20vh;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(27, 3, 22);
+    border-radius: 4px;
+}
+.Article{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contenido{
+    width: 70%;
+    padding-left: 2%;
+    display: flex;
+    gap: 10vh;
+}
+#img_Diseño{
+    width: 30%;
+    background-color: rgba(0, 255, 255, 0);
+}
+section{
+    width: 100%;
+    overflow: hidden;
+}
+#section_img{
+    width: 100%;
+}
+#contenido_sobre_mi{
+    text-align: justify;
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+/*-----------RESPONSIVE MEDIA QUERIS-------------------->>>*/
+@media all and (max-width: 1255px){
+    *{
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body{
+    background-color: aqua;
+    }
+    header{
+        background-color: rgba(0, 255, 255, 0);
+        height: 12%;
+        position: absolute;
+    }
+    #Inicio{
+        height: 45346456450vw;
+        
+    }
+    
+    
+}
+/*--------*/
+
+/*--------*/
+    
+    
+    #article{
+        margin-top: 0%;
+        padding: 0% 0%;
+        overflow: hidden;
+        display: grid;
+    }
+    .article_susu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #svg1{
+        display: flex;
+        height: 50vw;
+
+    }
+    .article_sub{
+        overflow: hidden;
+        padding-top: 8%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    h2,h3{
+        margin-bottom: 3%;
+        width: 100%;
+        color: rgb(35, 1, 33);
+    }
+    .h3{
+        margin-bottom: 2%;
+        color:rgb(26, 0, 24);
+        letter-spacing: 2px;
+    
+        font-size:13px;
+        text-align: center;
+    }
+
+    h2{
+        letter-spacing: 3px;
+    }
+    .article_article{
+        height: 80%;
+        margin-left: 20%;
+        padding: 10px;
+        display: flex;
+        gap: 2%;
+        background-color: rgb(17, 0, 255);
+        overflow: hidden;
+        border-radius: 12px;
+        justify-content: center;
+        grid-template-columns: 30% 30% 30%;
+        margin-top: 2%;
+        width: 60%;
+    }
+    .article_interior{
+        border-radius: 5px;
+        padding: 8% 10px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 30px 20px 50px rgb(88, 80, 80);
+        
+        flex: 1;
+        background-size: cover;
+    }
+    #empresarial_icon{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .article_interior:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: all .3s ;
+        gap: 2%;
+        background-color: rgb(255, 255, 255);
+    }
+    

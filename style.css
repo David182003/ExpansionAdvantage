@@ -1,0 +1,121 @@
+
+
+/*--------Responsive 🤖 para celular  1255px---*/
+
+/* ------ GLOBAL --------------------->>*/
+@media all and (max-width: 1255px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Rey{
+
+}
+header{
+    background-color: rgb(42, 0, 44);
+    height: 12%;
+    width: 100%;
+    position: fixed;
+}
+#header_img{
+    width: 40%;
+}
+main{
+    width: 100%;
+    height: 150vw;
+}
+article{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(133, 0, 156) , black);
+    width: 100%;
+    height: 150vw;
+}
+.article_conteiner1{
+    height: 30%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30%;
+}
+.conteiner_h2_blanco{
+    color: white;
+}
+.article_conteiner2{
+    width: 100%;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner2_img{
+    width: 80%;
+    border-radius: 60%;
+}
+
+
+
+
+section{
+    background-color: rgb(255, 255, 255);
+    height: 150vw;
+}
+}
+
+/*--------Responsive 🤖 para celular  800px---*/
+@media all and (max-width: 800px){
+    header{
+        overflow: hidden;
+    }
+    main{
+        width: 100%;
+        height: 190vw;
+    }
+    article{
+        background-color: chartreuse;
+        width: 100%;
+        height: 190vw;
+    }
+}
+
+/*--------Responsive 🤖 para celular  600px---*/
+@media all and (max-width: 600px){
+    main{
+        width: 100%;
+        height: 190vw;
+    }
+    article{
+        background-color: chartreuse;
+        width: 100%;
+        height: 190vw;
+    }
+}
+
+/*--------Responsive 🤖 para celular  413px---*/
+@media all and (max-width: 415px){
+    main{
+        width: 100%;
+        height: 215vw;
+    }
+    article{
+        background-color: chartreuse;
+        width: 100%;
+        height: 215vw;
+    }
+}
+
+/*--------Responsive 🤖 para celular  363px---*/
+@media all and (max-width: 363px){
+    main{
+        width: 100%;
+        height: 206vw;
+    }
+    article{
+        background-color: chartreuse;
+        width: 100%;
+        height: 206vw;
+    }
+}
