@@ -63,7 +63,7 @@ section{
 }
 .section_inferior{
     overflow: hidden;
-        padding-top: 20%;
+        padding-top: 10%;
         align-items: center;
         height:240vh;
         background-color: rgb(255, 255, 255);
@@ -71,17 +71,17 @@ section{
         justify-content: center;
 }
 .section_intermedio1{
-    padding-bottom: 10%;
-    padding-top: 10%;
+    padding-bottom: 1%;
+    padding-top: 4%;
 }
 .section_intermedio2{
     text-align: center;
     padding-left: 10%;
     padding-right: 8%;
-    height: 180vh;
+    height: 140vh;
         margin-left: 10%;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 6px;
+        padding-bottom:6px;
         display: grid;
         
         gap: 0%;
