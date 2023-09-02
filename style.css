@@ -17,6 +17,7 @@ header{
     height: 12%;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 #header_img{
     width: 40%;
@@ -32,6 +33,7 @@ article{
     background: linear-gradient(rgb(133, 0, 156) , black);
     width: 100%;
     height: 150vw;
+    
 }
 .article_conteiner1{
     height: 30%;
@@ -61,32 +63,43 @@ section{
 }
 .section_inferior{
     overflow: hidden;
-        padding-top: 8%;
+        padding-top: 20%;
         align-items: center;
+        height:190vh;
+        background-color: rgb(225, 0, 255);
         text-align: center;
         justify-content: center;
 }
+.section_intermedio1{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
 .section_intermedio2{
-    height: 40%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 8%;
+    height: auto;
         margin-left: 10%;
-        padding: 10px;
-        display: flex;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 1;
+        box-shadow: 10px 10px 50px 10px rgb(121, 113, 113);
         gap: 2%;
-        background-color: rgb(17, 0, 255);
         overflow: hidden;
         border-radius: 12px;
         justify-content: center;
-        grid-template-columns: 30% 30% 30%;
+        align-items: center;
+        grid-template-columns: 100%;
         margin-top: 2%;
         width: 80%;
 }
 .section_bajo{
-    border-radius: 5px;
+        border-radius: 5px;
         padding: 8% 10px;
         overflow: hidden;
-        background-color: rgb(255, 255, 255);
-        box-shadow: 10px 30px 20px 50px rgb(88, 80, 80);
-        flex: 1;
+        box-shadow: 10px 10px 50px 10px rgb(121, 113, 113);
+        width: 100%;
         background-size: cover;
 }
 .section_bajo:hover{
@@ -97,13 +110,15 @@ section{
     gap: 2%;
     background-color: rgb(255, 255, 255);
 }
+.h3{
+}
 }
 #empresarial_icon{
     width: 100%;
     justify-content: center;
     align-items: center;
 }
-}
+
 
 /*--------Responsive 🤖 para celular  800px---*/
 @media all and (max-width: 800px){
@@ -118,6 +133,9 @@ section{
         background-color: chartreuse;
         width: 100%;
         height: 190vw;
+    }
+    h3{
+        font-size: 2.5vh;
     }
 }
 
@@ -158,4 +176,11 @@ section{
         width: 100%;
         height: 206vw;
     }
+    h3{
+        font-size: medium;
+    }
+    .h3{
+        font-size: 10px;
+    }
+
 }
