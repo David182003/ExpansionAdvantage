@@ -31,7 +31,7 @@ article{
     align-items: center;
     background: linear-gradient(rgb(133, 0, 156) , black);
     width: 100%;
-    height: 190vw;
+    height: 150vw;
 }
 .article_conteiner1{
     height: 30%;
@@ -55,13 +55,53 @@ article{
     width: 80%;
     border-radius: 60%;
 }
-
-
-
-
 section{
     background-color: rgb(255, 255, 255);
-    height: 150vw;
+    height: 190vw;
+}
+.section_inferior{
+    overflow: hidden;
+        padding-top: 8%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+}
+.section_intermedio2{
+    height: 40%;
+        margin-left: 10%;
+        padding: 10px;
+        display: flex;
+        gap: 2%;
+        background-color: rgb(17, 0, 255);
+        overflow: hidden;
+        border-radius: 12px;
+        justify-content: center;
+        grid-template-columns: 30% 30% 30%;
+        margin-top: 2%;
+        width: 80%;
+}
+.section_bajo{
+    border-radius: 5px;
+        padding: 8% 10px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 30px 20px 50px rgb(88, 80, 80);
+        flex: 1;
+        background-size: cover;
+}
+.section_bajo:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: all .3s ;
+    gap: 2%;
+    background-color: rgb(255, 255, 255);
+}
+}
+#empresarial_icon{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 }
 
