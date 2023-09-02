@@ -65,8 +65,8 @@ section{
     overflow: hidden;
         padding-top: 20%;
         align-items: center;
-        height:190vh;
-        background-color: rgb(225, 0, 255);
+        height:240vh;
+        background-color: rgb(255, 255, 255);
         text-align: center;
         justify-content: center;
 }
@@ -78,14 +78,13 @@ section{
     text-align: center;
     padding-left: 10%;
     padding-right: 8%;
-    height: auto;
+    height: 180vh;
         margin-left: 10%;
         padding-top: 10%;
         padding-bottom: 10%;
         display: grid;
-        grid-template-columns: 1;
-        box-shadow: 10px 10px 50px 10px rgb(121, 113, 113);
-        gap: 2%;
+        
+        gap: 0%;
         overflow: hidden;
         border-radius: 12px;
         justify-content: center;
@@ -98,7 +97,7 @@ section{
         border-radius: 5px;
         padding: 8% 10px;
         overflow: hidden;
-        box-shadow: 10px 10px 50px 10px rgb(121, 113, 113);
+        box-shadow: 10px 10px 100px 0px  rgb(202, 199, 199);
         width: 100%;
         background-size: cover;
 }
@@ -107,7 +106,6 @@ section{
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     transition: all .3s ;
-    gap: 2%;
     background-color: rgb(255, 255, 255);
 }
 .h3{
